@@ -1,0 +1,22 @@
+---
+
+# Unlimited Arrow
+unlimited: false
+
+# Arrow Settings
+arrowprice: 25
+maxarrow: 1024
+
+#Menu and Command Languages
+menutitle: "§7Quiver §6Arrow"
+menucontent: "§7You Dont Have a Inventory Arrow in a Use Bow. Buy to Arrow Menu"
+exitbutton: "§3Exit"
+buybutton: "Buy Arrow"
+
+#Player Send Message Arrow Pics
+arrownomore: "§cYou Arrow is no More. Please Use Quiver Arrow Menu is Buy Arrow"
+lowarrow: "§6You Arrow pics 60. Please Use Quiver Arrow Menu is Buy Arrow"
+buysuccess: "§aBuyying 60 Arrow in Success"
+buyfailed: "§cBuy 60 Arrow is Failed. You Need a Money"
+arrowmaxed: "§6You Quiver is Maxed."
+...
