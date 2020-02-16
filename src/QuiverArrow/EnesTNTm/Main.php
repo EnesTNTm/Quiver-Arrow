@@ -4,49 +4,23 @@ namespace QuiverArrow\EnesTNTm;
 
 //PocketMine Event Class
 use pocketmine\event\player\PlayerJoinEvent;
-use pocketmine\event\player\PlayerQuitEvent;
-use pocketmine\event\player\PlayerDeathEvent;
-use pocketmine\event\player\PlayerMoveEvent;
-use pocketmine\event\player\PlayerRespawnEvent; 
-use pocketmine\event\player\PlayerDropItemEvent;
-use pocketmine\event\player\PlayerExhaustEvent;
-use pocketmine\event\player\PlayerChatEvent;
-use pocketmine\event\player\PlayerToggleFlightEvent;
-use pocketmine\event\inventory\InventoryPickupItemEvent;
 use pocketmine\event\player\PlayerInteractEvent;
-use pocketmine\event\block\BlockBreakEvent;
-use pocketmine\event\block\BlockPlaceEvent;
-use pocketmine\event\entity\ExplosionPrimeEvent;
 use pocketmine\event\Listener;
-use pocketmine\event\inventory\InventoryOpenEvent;
-use pocketmine\event\inventory\InventoryCloseEvent;
 use pocketmine\event\player\PlayerItemHeldEvent;
 use pocketmine\event\entity\EntityShootBowEvent;
-use pocketmine\event\entity\EntityArmorChangeEvent;
 
 //PocketMine Evebody Class
 use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
 use pocketmine\item\Item;
 use pocketmine\item\ItemIds;
-use pocketmine\scheduler\Task;
 use pocketmine\Server;
-use pocketmine\entity\Effect;
-use pocketmine\entity\EffectInstance;
-use pocketmine\item\Armor;
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\nbt\tag\IntTag;
 use pocketmine\utils\Color;
 use pocketmine\utils\Config;
-use pocketmine\entity\Living;
-
-use pocketmine\command\Command;
-use pocketmine\command\CommandSender;
-use pocketmine\command\ConsoleCommandSender;
-use pocketmine\command\CommandExecutor;
 
 //Plugin Class
-use _64FF00\PurePerms\PPGroup;
 use onebone\economyapi\EconomyAPI;
 use jojoe77777\FormAPI;
 
@@ -56,10 +30,11 @@ use jojoe77777\FormAPI;
 *
 * Plugin Data is Have a Rafalski Desimo (Enes Keskin)
 *
-* Bu yazılım Yeni Miras sunucusunun skywars ayrıntısına öznitelik olarak yapılmıştır. bu sebeple lütfen yazılımı paylaşmayınız. bu yazılım size verildiyse yazılımı kullanınız ancak paylaşılması söz konusu olamaz
+* Bu yazılım Yeni Miras sunucusunun ayrıntısına öznitelik olarak yapılmıştır. bu sebeple lütfen yazılımı paylaşmayınız. bu yazılım size verildiyse yazılımı kullanınız ancak paylaşılması söz konusu olamaz
 *
 * NowaLegacy Sponsor center Yeni Miras (2020)
 * Bu sunucu NowaLegacy sponsorluğu içerisinde kurulmuştur. 2015 - 2020 (NowaLegacy) / 2020 YeniMiras
+* Minecraft PE XBOX Account to "EnesTNTm"
 */
 
 
