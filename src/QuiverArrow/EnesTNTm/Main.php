@@ -188,5 +188,3 @@ class Main extends PluginBase implements Listener {
 		$f->sendToPlayer($o);
 	}
 }
-
-?>
