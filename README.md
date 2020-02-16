@@ -1,4 +1,14 @@
-<h1>-----=====----- Quiver Arrow -----=====-----</h1>
+<h1>--==-- About Plugin --==--</h1>
+
+About the Plugin:
+The plugin is completely my own coding.
+
+This plugin was made with all settings configurable config.
+
+What the plugin does:
+Slot 9 (Hotbar's Latest Slot) Will Be An Item In This Slot. You will enter the menu with it and buy an arrow. However, the arrow you received will not arrive in your hand or in your inventory. However, when you receive a bow in your hand, an arrow will come in Slot 9. But of course if there is unlimited mode, but if unlimited mode is off, arrow 9 will also be arrow.
+
+<h1>--==-- Quiver Arrow --==--</h1>
 
 <h3>Config Edit Quiver Arrow Plugin</h3>
 
@@ -21,7 +31,3 @@ lowarrow: "§6You Arrow pics 60. Please Use Quiver Arrow Menu is Buy Arrow" //Ar
 buysuccess: "§aBuyying 60 Arrow in Success" //Buy Success Message
 buyfailed: "§cBuy 60 Arrow is Failed. You Need a Money" //Buy is Failed Message
 arrowmaxed: "§6You Quiver is Maxed." //You Arrow is Maxed Message
-
-Easy Plugin.
-
-<h1>-----=====----- Quiver Arrow -----=====-----</h1>
