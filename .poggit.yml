@@ -4,5 +4,4 @@ branches:
 - master
 projects:
   Quiver-Arrow:
-    path: ""
 ...
